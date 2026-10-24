@@ -26,7 +26,7 @@ function CategoriesSection() {
           <div className="category-card__content">
             <div className="category-card__column-left">
               <p className="category-card__text">
-                Стоимость обучения категории «A» 20.000 руб с учётом ГСМ
+                Стоимость обучения категории «A» 20.000 руб
               </p>
 
               <p className="category-card__text">
@@ -66,7 +66,7 @@ function CategoriesSection() {
           <div className="category-card__content">
             <div className="category-card__column-left">
               <p className="category-card__text">
-                Стоимость обучения категории «В» 20.000 руб с учётом ГСМ
+                Стоимость обучения категории «В» 35.000 руб
               </p>
 
               <p className="category-card__text">

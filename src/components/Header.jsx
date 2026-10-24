@@ -27,11 +27,13 @@ function Header() {
           onClick={() => setMenuOpen(true)}
           aria-label="Открыть меню"
         >
-          <img src={menuIcon} alt="Меню" className="menu-icon" />
+          <img src={menuIcon} alt="Меню" className="menu-icon" href="/" />
         </button>
 
         <div className="logo">
-          <img src={logo} alt="Автошкола Автопрестиж" />
+          <a href="/">
+            <img src={logo} alt="Логотип сайта" className="menu-icon" />
+          </a>
         </div>
 
         {/* ПК версия */}

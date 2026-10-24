@@ -11,6 +11,7 @@ import CertificatePage from "./pages/CertificatePage";
 import DetailsPage from "./pages/DetailsPage";
 import StandardsPage from "./pages/StandardsPage";
 import StructurePage from "./pages/StructurePage";
+import RoutesPage from "./pages/RoutesPage";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/details" element={<DetailsPage />}></Route>
         <Route path="/standards" element={<StandardsPage />}></Route>
         <Route path="/structure" element={<StructurePage />}></Route>
+        <Route path="/routes" element={<RoutesPage />}></Route>
       </Routes>
     </>
   );

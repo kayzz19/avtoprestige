@@ -52,6 +52,8 @@ function SideMenu({ isOpen, onClose }) {
               Получение водительского удостоверения
             </Link>
 
+            <Link to="/routes" onClick={handleClose}>Маршруты</Link>
+
             <Link to="/details" onClick={handleClose}>
               Реквизиты
             </Link>
